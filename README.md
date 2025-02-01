@@ -19,12 +19,21 @@
   <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript">
 </div>
 
-#### **Frontend Ecosystem**
+#### **Frontend Development**
 <div align="center">
+  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5">
+  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3">
   <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React">
   <img src="https://img.shields.io/badge/Svelte-FF3E00?style=for-the-badge&logo=svelte&logoColor=white" alt="Svelte">
   <img src="https://img.shields.io/badge/Astro-FF5D01?style=for-the-badge&logo=astro&logoColor=white" alt="Astro">
+</div>
+
+#### **UI Frameworks & Libraries**
+<div align="center">
   <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" alt="Tailwind">
+  <img src="https://img.shields.io/badge/MUI-007FFF?style=for-the-badge&logo=mui&logoColor=white" alt="MUI">
+  <img src="https://img.shields.io/badge/Bootstrap-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white" alt="Bootstrap">
+  <img src="https://img.shields.io/badge/Aceternity_UI-3B82F6?style=for-the-badge&logo=react&logoColor=white" alt="Aceternity UI">
 </div>
 
 #### **Backend & Cloud**
@@ -34,13 +43,19 @@
   <img src="https://img.shields.io/badge/Cloudflare-F38020?style=for-the-badge&logo=cloudflare&logoColor=white" alt="Cloudflare">
 </div>
 
+#### **Game Development**
+<div align="center">
+  <img src="https://img.shields.io/badge/Godot-478CBF?style=for-the-badge&logo=godotengine&logoColor=white" alt="Godot">
+  <img src="https://img.shields.io/badge/Pygame-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Pygame">
+  <img src="https://img.shields.io/badge/Java_Swing-007396?style=for-the-badge&logo=java&logoColor=white" alt="Java Swing">
+</div>
+
 #### **Development Tools**
 <div align="center">
   <img src="https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white" alt="VS Code">
   <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git">
   <img src="https://img.shields.io/badge/Prettier-F7B93E?style=for-the-badge&logo=prettier&logoColor=black" alt="Prettier">
 </div>
-
 ---
 
 ### 📈 Development Activity
@@ -69,5 +84,5 @@
 ---
 
 <div align="center">
-  <sub>🔍 Eager to gain experience in computer science and software development through internships, projects, or online courses, while connecting with professionals in the field to further develop my skills.</sub>
+  <h6>🔍 Eager to gain experience in computer science and software development through internships, projects, or online courses, while connecting with professionals in the field to further develop my skills.</h6>
 </div>
