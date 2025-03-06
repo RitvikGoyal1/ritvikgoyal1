@@ -29,7 +29,7 @@
 ### UI Frameworks & Libraries
 <div align="center">
   <a href="#"><img src="https://skillicons.dev/icons?i=tailwind,materialui,bootstrap" alt="UI Frameworks" /></a>
-  <a href="https://theme-ui.com"><img src="https://raw.githubusercontent.com/system-ui/theme-ui/master/packages/docs/static/icon.png" width="48" height="48" alt="Theme UI" /></a>
+  <a href="https://theme-ui.com"><img src="https://raw.githubusercontent.com/system-ui/theme-ui/refs/heads/develop/packages/docs/static/logo-dark.png" width="48" height="48" alt="Theme UI" /></a>
   <a href="https://ui.aceternity.com/"><img src="https://ui.aceternity.com/_next/image?url=%2Flogo-dark.png&w=128&q=75" width="48" height="48" alt="Aceternity UI" /></a>
 </div>
 
