@@ -5,13 +5,3 @@
   <a href="mailto:ritvik@ritvikgoyal.com"><img src="https://img.shields.io/badge/Email-D14836?style=flat&logo=gmail&logoColor=white" alt="Email" /></a>
   <a href="https://discordapp.com/users/885632889084076052"><img src="https://img.shields.io/badge/Discord-5865F2?style=flat&logo=discord&logoColor=white" alt="Discord" /></a>
 </div>
-
-## 📊 GitHub Stats & 🌱 Currently Learning
-
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ritvikgoyal1&layout=donut&theme=radical&hide_border=true&border_radius=10" width="40%" alt="Top Languages" />
-  <img src="https://streak-stats.demolab.com?user=ritvikgoyal1&theme=radical&hide_border=true&border_radius=10" width="50%" alt="Streak Stats" />
-  <br><br>
-  <b>Currently Learning:</b><br>
-  <img src="https://skillicons.dev/icons?i=docker,pytorch,nodejs,sqlite" alt="Learning" />
-</div>
