@@ -25,3 +25,10 @@ also available as ordinary text links. Artwork uses system font fallbacks.
 Biographical and project details came from the public portfolios at
 <https://ritvikgoyal.com> and <https://app.ritvikgoyal.com>, plus the linked project
 repositories and Dealify's Devpost. WealthSnaps is explicitly marked in development.
+
+CUTC's [organizer listing](https://cutc.ca/) identifies Ritvik on the operations
+team. Hack Canada's [public team page](https://hackcanada-website-vx2n.vercel.app/)
+lists Ritvik among its organizers; the [2026 event page](https://hack-canada-2026.devpost.com/)
+documents the 36-hour event at Waterloo's SPUR Innovation Centre. The README uses
+the general title "Organizer" rather than an unverified executive title. CUTC and
+Hack Canada appear before the project showcase to reflect their importance to Ritvik.
