@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="254" viewBox="0 0 600 254" role="img" aria-labelledby="title desc">
+<title id="title">CUTC — OPERATIONS</title><desc id="desc">CUTC. OPERATIONS. Student-run tech conference</desc>
+<defs></defs>
+<rect x=".5" y=".5" width="599" height="253" rx="16" fill="#111216" stroke="#45404e"/>
+<path d="M1 17Q1 1 17 1H583Q599 1 599 17V48H1Z" fill="#211d30"/>
+<text x="30" y="31" fill="#baa4ff" font-family="monospace" font-size="13" font-weight="400" >COMMUNITY</text>
+<text x="30" y="115" fill="#f5f3ea" font-family="Arial, Helvetica, sans-serif" font-size="61" font-weight="700" letter-spacing="-2">CUTC</text>
+<g transform="translate(503 108) scale(0.83)" color="#baa4ff"><path d="M-24 -48L0 -14L24 -48" stroke="currentColor" stroke-width="7" fill="none"/>
+<rect x="-36" y="-17" width="72" height="83" rx="9" fill="currentColor"/>
+<rect x="-14" y="-7" width="28" height="5" rx="2" fill="#111216"/>
+<circle cy="24" r="13" fill="#111216"/><path d="M-21 49H21" stroke="#111216" stroke-width="6"/></g><text x="30" y="157" fill="#baa4ff" font-family="monospace" font-size="17" font-weight="400" >OPERATIONS</text><path d="M30 184H570" stroke="#35333e"/><text x="30" y="224" fill="#b1b0bd" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="400" >Student-run tech conference</text><text x="547" y="227" fill="#baa4ff" font-family="Arial, Helvetica, sans-serif" font-size="26" font-weight="400" >↗</text>
+</svg>

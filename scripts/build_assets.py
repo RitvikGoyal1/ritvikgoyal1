@@ -101,7 +101,7 @@ def projects():
 <path d="M282 275V218M331 275V239M380 275V208M429 275V225M478 275V200M527 275V216" stroke="#6f9672" stroke-width="21"/>
 <path d="M282 244L331 250L380 231L429 239L478 215L527 222" fill="none" stroke="{LIME}" stroke-width="3"/>
 {mono(282, 298, 'SCAN → REVIEW → UNDERSTAND', 11, LIME)}'''
-    card('wealthsnaps.svg', 'WealthSnaps', '02 / MOBILE + MONEY', LIME, wealth, 'Small receipts. A bigger picture.')
+    card('wealthsnaps.svg', 'WealthSnaps', '02 / MOBILE + MONEY', LIME, wealth, 'Receipts, spending & net worth.')
     study = f'''<rect x="28" y="158" width="544" height="154" rx="10" fill="#1e2130"/>
 <circle cx="120" cy="235" r="56" fill="none" stroke="#3b4057" stroke-width="8"/>
 <circle cx="120" cy="235" r="56" fill="none" stroke="#a6baff" stroke-width="8" stroke-dasharray="264 352" transform="rotate(-90 120 235)"/>
@@ -109,14 +109,83 @@ def projects():
 <rect x="217" y="213" width="20" height="20" rx="5" fill="#a6baff"/><path d="M222 222L227 227L233 218" stroke="{INK}" fill="none" stroke-width="2"/>
 {text(249, 230, 'One goal.', 21)}<rect x="217" y="249" width="20" height="20" rx="5" stroke="#707a9c" fill="none"/>
 {text(249, 266, 'One good session.', 21)}{mono(217, 298, 'PLAN → FOCUS → REFLECT', 11, '#a6baff')}'''
-    card('studyflow.svg', 'StudyFlow', '03 / LEARNING + FOCUS', '#a6baff', study, 'A plan that actually meets you at the desk.')
+    card('studyflow.svg', 'StudyFlow', '03 / LEARNING + FOCUS', '#a6baff', study, 'Pomodoro, goals & study analytics.')
     panther = f'''<rect x="28" y="158" width="544" height="154" rx="10" fill="#28221e"/>
 <g transform="translate(53 176)"><rect width="493" height="119" rx="2" fill="#eee4d3"/>
 {text(15, 29, 'THE PANTHER PRESS', 25, '#342820', 700, family='Georgia, serif')}{mono(410, 27, 'VOL. 01', 10, '#66554a')}
 <path d="M15 39H478" stroke="#342820"/><rect x="15" y="51" width="100" height="52" fill="#bb987a"/>
 <path d="M15 103L46 66L69 87L87 75L115 103" fill="#6e594c"/>{text(130, 69, 'A place for student voices.', 18, '#342820', 700, family='Georgia, serif')}
 <path d="M130 83H391M130 92H385M130 101H350M418 54H478M418 64H473M418 74H478M418 84H463M418 94H478M418 104H455" stroke="#b2a08c"/></g>'''
-    card('panther-press.svg', 'Panther Press', '04 / EDITORIAL + COMMUNITY', '#e9b891', panther, 'Student stories, with a home of their own.')
+    card('panther-press.svg', 'Panther Press', '04 / EDITORIAL + COMMUNITY', '#e9b891', panther, 'A student newsroom, built for publishing.')
+
+def identity():
+    facts = [('SHOPIFY', 'Software developer', LIME),
+             ('YORK', 'Dev Degree student', LILAC),
+             ('TORONTO', 'Ontario, Canada', '#a6baff')]
+    for compact in (False, True):
+        width, height = (660, 196) if compact else (1200, 162)
+        unit, pad = width / 3, 18 if compact else 32
+        body = f'<rect x=".5" y=".5" width="{width-1}" height="{height-1}" rx="16" fill="{INK}" stroke="#35333e"/>'
+        for i, (name, role, accent) in enumerate(facts):
+            x = unit * i + pad
+            if i:
+                body += f'<path d="M{unit*i} 30V{height-30}" stroke="#35333e"/>'
+            body += f'<circle cx="{x+5}" cy="31" r="5" fill="{accent}"/>'
+            body += text(x, 82, name, 31 if compact else 38, PAPER, 700, extra='letter-spacing="-1"')
+            if compact:
+                lines = [('Software', 'developer'), ('Dev Degree', 'student'), ('Ontario,', 'Canada')][i]
+                body += text(x, 126, lines[0], 23, MUTED)
+                body += text(x, 157, lines[1], 23, MUTED)
+            else:
+                body += text(x, 121, role, 23, MUTED)
+        svg('identity-mobile.svg' if compact else 'identity.svg', width, height,
+            'Shopify developer · York Dev Degree student · Toronto, Canada', body)
+
+def community():
+    # Original symbols for each event; these are illustrations, not official logos.
+    icons = {
+        'cutc': '''<path d="M-24 -48L0 -14L24 -48" stroke="currentColor" stroke-width="7" fill="none"/>
+<rect x="-36" y="-17" width="72" height="83" rx="9" fill="currentColor"/>
+<rect x="-14" y="-7" width="28" height="5" rx="2" fill="#111216"/>
+<circle cy="24" r="13" fill="#111216"/><path d="M-21 49H21" stroke="#111216" stroke-width="6"/>''',
+        'hack-canada': '''<path d="M0 -55L11 -29L23 -37L20 -7L42 -20L38 -3L56 2L29 27L32 37L5 33L5 59H-5V33L-32 37L-29 27L-56 2L-38 -3L-42 -20L-20 -7L-23 -37L-11 -29Z" fill="currentColor"/>''',
+        'scrapyard': f'''<g transform="rotate(-12)"><rect x="-44" y="-39" width="88" height="88" rx="8" fill="currentColor"/>
+<path d="M-54 -13H54M-54 23H54" stroke="#111216" stroke-width="9"/>
+<path d="M-21 -49V59M21 -49V59" stroke="#111216" stroke-width="9"/></g>
+{star(47, -40, 21, PAPER)}''',
+        'daydream': '''<path d="M-37 -19H37L53 13L57 34Q55 51 40 43L20 28H-20L-40 43Q-55 51 -57 34L-53 13Z" fill="currentColor"/>
+<path d="M-34 -3V19M-45 8H-23" stroke="#111216" stroke-width="6"/>
+<circle cx="30" cy="2" r="5" fill="#111216"/><circle cx="40" cy="13" r="5" fill="#111216"/>
+<path d="M7 -67H19V-55H31V-43H19V-31H7V-43H-5V-55H7Z" fill="#f5f3ea"/>'''
+    }
+    events = [
+        ('cutc', 'CUTC', 'OPERATIONS', 'Student-run tech conference', LILAC, '#211d30'),
+        ('hack-canada', 'Hack Canada', 'ORGANIZER', '36 hours. Hundreds of builders.', LIME, '#1d281c'),
+        ('scrapyard', 'Scrapyard', 'TORONTO / CO-ORGANIZER', 'Scrappy ideas, built together.', '#ffbb8f', '#2c221e'),
+        ('daydream', 'Daydream', 'TORONTO / CO-ORGANIZER', 'A game jam for young creators.', '#a6cfff', '#1b2532'),
+    ]
+    for name, title, role, subtitle, accent, tint in events:
+        for compact in (False, True):
+            width, height = (360, 230) if compact else (600, 254)
+            title_size = (62 if name == 'cutc' else 44) if compact else 61
+            x, title_y = (22, 107) if compact else (30, 115)
+            icon_x, icon_y, icon_scale = (309, 39, .34) if compact else (503, 108, .83)
+            body = f'''<rect x=".5" y=".5" width="{width-1}" height="{height-1}" rx="16" fill="{INK}" stroke="#45404e"/>
+<path d="M1 17Q1 1 17 1H{width-17}Q{width-1} 1 {width-1} 17V48H1Z" fill="{tint}"/>
+{mono(x, 31, 'HACK CLUB' if name in ('scrapyard', 'daydream') else 'COMMUNITY', 16 if compact else 13, accent)}
+{text(x, title_y, title, title_size, PAPER, 700, extra='letter-spacing="-2"')}
+<g transform="translate({icon_x} {icon_y}) scale({icon_scale})" color="{accent}">{icons[name]}</g>'''
+            if compact:
+                short_role = 'OPERATIONS' if name == 'cutc' else 'ORGANIZER'
+                body += mono(x, 151, short_role, 22, accent)
+                body += text(x, 199, 'Toronto' if name != 'hack-canada' else '2026 · Waterloo', 23, MUTED)
+            else:
+                body += mono(x, 157, role, 17, accent)
+                body += f'<path d="M30 184H570" stroke="#35333e"/>'
+                body += text(x, 224, subtitle, 21, MUTED)
+                body += text(547, 227, '↗', 26, accent)
+            svg(f'{name}{"-mobile" if compact else ""}.svg', width, height,
+                f'{title} — {role}', body, f'{title}. {role}. {subtitle}')
 
 def footer():
     body = f'''<rect width="1200" height="168" rx="16" fill="{LIME}"/>{mono(34, 37, 'THE NEXT SIDE QUEST', 14, INK)}
@@ -127,6 +196,8 @@ def footer():
 if __name__ == '__main__':
     ASSETS.mkdir(exist_ok=True)
     hero()
+    identity()
+    community()
     projects()
     footer()
-    print('Built 10 self-contained SVG assets.')
+    print('Built 20 self-contained SVG assets.')
