@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="280" viewBox="0 0 1200 280" role="img" aria-labelledby="title desc">
+<title id="title">Panther Press</title><desc id="desc">04 / EDITORIAL + COMMUNITY. Student stories, with a home of their own.</desc>
+<defs></defs>
+<rect width="1200" height="280" rx="16" fill="#111216"/>
+<rect x=".5" y=".5" width="1199" height="279" rx="16" stroke="#35333e" fill="none"/>
+<text x="32" y="42" fill="#e9b891" font-family="monospace" font-size="14" font-weight="400" >04 / EDITORIAL + COMMUNITY</text><text x="30" y="128" fill="#f5f3ea" font-family="Arial, Helvetica, sans-serif" font-size="72" font-weight="700" letter-spacing="-3">Panther Press</text>
+<text x="32" y="182" fill="#b1b0bd" font-family="Arial, Helvetica, sans-serif" font-size="25" font-weight="400" >Student stories, with a home of</text><text x="32" y="214" fill="#b1b0bd" font-family="Arial, Helvetica, sans-serif" font-size="25" font-weight="400" >their own.</text><g transform="translate(600,-90)"><rect x="28" y="158" width="544" height="154" rx="10" fill="#28221e"/>
+<g transform="translate(53 176)"><rect width="493" height="119" rx="2" fill="#eee4d3"/>
+<text x="15" y="29" fill="#342820" font-family="Georgia, serif" font-size="25" font-weight="700" >THE PANTHER PRESS</text><text x="410" y="27" fill="#66554a" font-family="monospace" font-size="10" font-weight="400" >VOL. 01</text>
+<path d="M15 39H478" stroke="#342820"/><rect x="15" y="51" width="100" height="52" fill="#bb987a"/>
+<path d="M15 103L46 66L69 87L87 75L115 103" fill="#6e594c"/><text x="130" y="69" fill="#342820" font-family="Georgia, serif" font-size="18" font-weight="700" >A place for student voices.</text>
+<path d="M130 83H391M130 92H385M130 101H350M418 54H478M418 64H473M418 74H478M418 84H463M418 94H478M418 104H455" stroke="#b2a08c"/></g></g>
+<text x="961" y="254" fill="#e9b891" font-family="monospace" font-size="12" font-weight="400" >EXPLORE THE BUILD ↗</text>
+</svg>

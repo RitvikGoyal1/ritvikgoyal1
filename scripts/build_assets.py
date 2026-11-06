@@ -3,6 +3,7 @@
 from html import escape
 from math import cos, sin, pi
 from pathlib import Path
+from textwrap import wrap
 
 ASSETS = Path(__file__).resolve().parents[1] / 'assets'
 INK, PAPER, MUTED, LIME, LILAC = '#111216', '#f5f3ea', '#b1b0bd', '#d5ff70', '#baa4ff'
@@ -74,6 +75,14 @@ def card(name, title, category, accent, art, subtitle):
 {mono(28, 34, category, 12, accent)}{mono(543, 34, '↗', 18)}
 {text(26, 94, title, 49, PAPER, 700, extra='letter-spacing="-2"')}{text(28, 125, subtitle, 19, MUTED)}{art}'''
     svg(name, 600, 340, title, body, f'{category}. {subtitle}')
+    subtitle_lines = ''.join(text(32, 182 + i * 32, line, 25, MUTED)
+                             for i, line in enumerate(wrap(subtitle, width=34)))
+    wide = f'''<rect width="1200" height="280" rx="16" fill="{INK}"/>
+<rect x=".5" y=".5" width="1199" height="279" rx="16" stroke="#35333e" fill="none"/>
+{mono(32, 42, category, 14, accent)}{text(30, 128, title, 72, PAPER, 700, extra='letter-spacing="-3"')}
+{subtitle_lines}<g transform="translate(600,-90)">{art}</g>
+{mono(961, 254, 'EXPLORE THE BUILD ↗', 12, accent)}'''
+    svg(name.replace('.svg', '-wide.svg'), 1200, 280, title, wide, f'{category}. {subtitle}')
 
 def projects():
     dealify = f'''<rect x="28" y="158" width="544" height="154" rx="10" fill="#201c2b"/>
@@ -120,4 +129,4 @@ if __name__ == '__main__':
     hero()
     projects()
     footer()
-    print('Built 6 self-contained SVG assets.')
+    print('Built 10 self-contained SVG assets.')

@@ -1,6 +1,6 @@
 # Profile artwork
 
-The README uses GitHub-supported HTML, Markdown, and six local SVG images. All
+The README uses GitHub-supported HTML, Markdown, and local SVG images. All
 illustrations are original vector artwork; the cards are conceptual illustrations,
 not product screenshots. There are no external image generators or runtime services.
 
@@ -14,6 +14,9 @@ python3 scripts/build_assets.py
 The generator uses only Python's standard library. Commit the generated files in
 `assets/` alongside changes to the generator. No GitHub Action, token, package
 installation, or network connection is needed to keep the profile working.
+
+Project illustrations use `<picture>` to select a compact crop below 600px and a
+wide composition on desktop, keeping the native text in a single column.
 
 The hero's CSS animation is decorative and respects `prefers-reduced-motion`.
 Every image has descriptive alt text, and the project details and destinations are

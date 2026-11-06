@@ -17,34 +17,60 @@ I like the moment an idea stops being a “what if” and becomes something some
 
 ### A few rabbit holes, made real.
 
-<table>
-  <tr>
-    <td width="50%" valign="top">
-      <a href="https://app.ritvikgoyal.com/projects/dealify"><img src="assets/dealify.svg" width="100%" alt="Dealify — an AI shopkeeper backed by a pricing engine. Hack the North 2026 category winner." /></a>
-      <p>A shopper makes an offer. AI handles the conversation; a TypeScript engine keeps every counter within the merchant’s rules.</p>
-      <p><b>Winner, Shopify: Hack Shopping with AI</b> · Hack the North 2026. Built with Bryan Maristanez and Ricardo Gao.</p>
-      <p><a href="https://github.com/Maristanez/dealify">Source ↗</a> · <a href="https://devpost.com/software/bazaar-wgv16i">The hack ↗</a> · <a href="https://app.ritvikgoyal.com/projects/dealify#demo">Watch it ↗</a></p>
-    </td>
-    <td width="50%" valign="top">
-      <a href="https://wealthsnaps.com"><img src="assets/wealthsnaps.svg" width="100%" alt="WealthSnaps — receipts, spending, and net worth in one mobile app. In development." /></a>
-      <p>Scan a receipt, review the details, and see the bigger picture. Expenses, statement imports, and net worth in one mobile app.</p>
-      <p><b>In development.</b> React Native, Expo, Gemini receipt extraction, and Supabase.</p>
-      <p><a href="https://wealthsnaps.com">Explore ↗</a> · <a href="https://app.ritvikgoyal.com/projects/wealthsnaps">Build notes ↗</a></p>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <a href="https://dazzling-licorice-53acc6.netlify.app"><img src="assets/studyflow.svg" width="100%" alt="StudyFlow — Pomodoro sessions, goals, calendars, and learning analytics in one workspace." /></a>
-      <p>A study plan only helps if it meets you at the desk. Pomodoro sessions, goals, calendars, and learning analytics in one workspace.</p>
-      <p><a href="https://dazzling-licorice-53acc6.netlify.app">Try it ↗</a> · <a href="https://app.ritvikgoyal.com/projects/studyflow">Build notes ↗</a></p>
-    </td>
-    <td width="50%" valign="top">
-      <a href="https://panther-press.pages.dev"><img src="assets/panther-press.svg" width="100%" alt="Panther Press — a student newsroom built with Astro, React, MDX, and Keystatic." /></a>
-      <p>A home for student voices, with article search, issue archives, and a publishing workflow. Built with Astro, React, MDX, and Keystatic.</p>
-      <p><a href="https://panther-press.pages.dev">Read it ↗</a> · <a href="https://github.com/vpci-panther-press/panther-press">Source ↗</a></p>
-    </td>
-  </tr>
-</table>
+<a href="https://app.ritvikgoyal.com/projects/dealify">
+  <picture>
+    <source media="(max-width: 600px)" srcset="assets/dealify.svg" />
+    <img src="assets/dealify-wide.svg" width="100%" alt="Dealify — an AI shopkeeper backed by a pricing engine. Hack the North 2026 category winner." />
+  </picture>
+</a>
+
+A shopper makes an offer. AI handles the conversation; a TypeScript engine keeps every counter within the merchant’s rules.
+
+<b>Winner, Shopify: Hack Shopping with AI</b> · Hack the North 2026. Built with Bryan Maristanez and Ricardo Gao.
+
+<a href="https://github.com/Maristanez/dealify">Source ↗</a> · <a href="https://devpost.com/software/bazaar-wgv16i">The hack ↗</a> · <a href="https://app.ritvikgoyal.com/projects/dealify#demo">Watch it ↗</a>
+
+<br />
+
+<a href="https://wealthsnaps.com">
+  <picture>
+    <source media="(max-width: 600px)" srcset="assets/wealthsnaps.svg" />
+    <img src="assets/wealthsnaps-wide.svg" width="100%" alt="WealthSnaps — receipts, spending, and net worth in one mobile app. In development." />
+  </picture>
+</a>
+
+Scan a receipt, review the details, and see the bigger picture. Expenses, statement imports, and net worth in one mobile app.
+
+<b>In development.</b> React Native, Expo, Gemini receipt extraction, and Supabase.
+
+<a href="https://wealthsnaps.com">Explore ↗</a> · <a href="https://app.ritvikgoyal.com/projects/wealthsnaps">Build notes ↗</a>
+
+<br />
+
+<a href="https://dazzling-licorice-53acc6.netlify.app">
+  <picture>
+    <source media="(max-width: 600px)" srcset="assets/studyflow.svg" />
+    <img src="assets/studyflow-wide.svg" width="100%" alt="StudyFlow — Pomodoro sessions, goals, calendars, and learning analytics in one workspace." />
+  </picture>
+</a>
+
+A study plan only helps if it meets you at the desk. Pomodoro sessions, goals, calendars, and learning analytics in one workspace.
+
+<a href="https://dazzling-licorice-53acc6.netlify.app">Try it ↗</a> · <a href="https://app.ritvikgoyal.com/projects/studyflow">Build notes ↗</a>
+
+<br />
+
+<a href="https://panther-press.pages.dev">
+  <picture>
+    <source media="(max-width: 600px)" srcset="assets/panther-press.svg" />
+    <img src="assets/panther-press-wide.svg" width="100%" alt="Panther Press — a student newsroom built with Astro, React, MDX, and Keystatic." />
+  </picture>
+</a>
+
+A home for student voices, with article search, issue archives, and a publishing workflow. Built with Astro, React, MDX, and Keystatic.
+
+<a href="https://panther-press.pages.dev">Read it ↗</a> · <a href="https://github.com/vpci-panther-press/panther-press">Source ↗</a>
+
 
 ### More than the commit history.
 
