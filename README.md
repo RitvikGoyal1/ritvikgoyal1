@@ -1,4 +1,4 @@
-<a href="https://app.ritvikgoyal.com">
+<a href="https://ritvikgoyal.com">
   <img src="assets/hero.svg" width="100%" alt="Ritvik Goyal — a little curiosity, a lot of possibility. Software, hackathons, and side quests. Toronto, Canada." />
 </a>
 
