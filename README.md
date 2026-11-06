@@ -21,7 +21,8 @@ I like the moment an idea stops being a “what if” and becomes something some
 
 - **[CUTC · Operations](https://cutc.ca/):** Part of the team behind the Canadian Undergraduate Technology Conference, helping bring students, founders, researchers, and industry leaders together through student-run tech events.
 - **[Hack Canada · Organizer](https://hackcanada.org/):** Helped organize [Hack Canada 2026](https://hack-canada-2026.devpost.com/), a 36-hour hackathon at Waterloo’s SPUR Innovation Centre that brought hundreds of student builders together.
-- **[Scrapyard Toronto](https://www.linkedin.com/in/ritvikgoyal1/):** Helped lead a Hack Club hackathon where students turned scrappy, creative ideas into projects.
+- **[Scrapyard Toronto](https://scrapyard.hackclub.com/toronto):** Helped lead a Hack Club hackathon where students turned scrappy, creative ideas into projects.
+- **[Daydream Toronto](https://daydream.hackclub.com/toronto):** Helped organize Hack Club’s Toronto game jam, bringing students together to build and share their own games.
 
 ### A few rabbit holes, made real.
 
