@@ -15,6 +15,14 @@ I'm Ritvik, a **software developer at Shopify** and a **Digital Technologies stu
 
 I like the moment an idea stops being a “what if” and becomes something someone can use. Sometimes that’s a shopkeeper that negotiates. Sometimes it’s a better way to study. Sometimes it’s a room full of people building their first weird thing.
 
+### Building the community, too.
+
+**CUTC and Hack Canada are two of the biggest parts of my story.** I care about bringing people into the room, giving them a reason to connect, and helping make the whole thing happen.
+
+- **[CUTC · Operations](https://cutc.ca/):** Part of the team behind the Canadian Undergraduate Technology Conference, helping bring students, founders, researchers, and industry leaders together through student-run tech events.
+- **[Hack Canada · Organizer](https://hackcanada.org/):** Helped organize [Hack Canada 2026](https://hack-canada-2026.devpost.com/), a 36-hour hackathon at Waterloo’s SPUR Innovation Centre that brought hundreds of student builders together.
+- **[Scrapyard Toronto](https://www.linkedin.com/in/ritvikgoyal1/):** Helped lead a Hack Club hackathon where students turned scrappy, creative ideas into projects.
+
 ### A few rabbit holes, made real.
 
 <a href="https://app.ritvikgoyal.com/projects/dealify">
@@ -74,7 +82,6 @@ A home for student voices, with article search, issue archives, and a publishing
 
 ### More than the commit history.
 
-- **Community:** Helped lead [Scrapyard Toronto](https://www.linkedin.com/in/ritvikgoyal1/), a Hack Club hackathon for students turning scrappy ideas into projects.
 - **Teaching:** Spent summer 2024 guiding hands-on activities as a STEM Camp counselor.
 - **Problem solving:** CALICO bronze, December 2024. Still following the next interesting problem.
 - **An earlier rabbit hole:** [mapSTEM](https://github.com/STEM-E-Youth-Career-Development-Program/map-app), connecting students with STEM opportunities.
