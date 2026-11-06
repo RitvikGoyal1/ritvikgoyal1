@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="280" viewBox="0 0 1200 280" role="img" aria-labelledby="title desc">
+<title id="title">Dealify</title><desc id="desc">01 / COMMERCE + AI. Name your price. The shop can counter.</desc>
+<defs></defs>
+<rect width="1200" height="280" rx="16" fill="#111216"/>
+<rect x=".5" y=".5" width="1199" height="279" rx="16" stroke="#35333e" fill="none"/>
+<text x="32" y="42" fill="#baa4ff" font-family="monospace" font-size="14" font-weight="400" >01 / COMMERCE + AI</text><text x="30" y="128" fill="#f5f3ea" font-family="Arial, Helvetica, sans-serif" font-size="72" font-weight="700" letter-spacing="-3">Dealify</text>
+<text x="32" y="182" fill="#b1b0bd" font-family="Arial, Helvetica, sans-serif" font-size="25" font-weight="400" >Name your price. The shop can</text><text x="32" y="214" fill="#b1b0bd" font-family="Arial, Helvetica, sans-serif" font-size="25" font-weight="400" >counter.</text><g transform="translate(600,-90)"><rect x="28" y="158" width="544" height="154" rx="10" fill="#201c2b"/>
+<path d="M288 186H330M288 244H330" stroke="#645474" stroke-dasharray="4 5"/>
+<rect x="48" y="178" width="240" height="44" rx="10" fill="#3b2f54"/><text x="64" y="206" fill="#f5f3ea" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="400" >“Can you do $80?”</text>
+<rect x="90" y="236" width="198" height="44" rx="10" fill="#baa4ff"/><text x="106" y="264" fill="#111216" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" >“Let’s make a deal.”</text>
+<rect x="330" y="178" width="222" height="102" rx="8" fill="#111216" stroke="#76638d"/>
+<text x="346" y="203" fill="#baa4ff" font-family="monospace" font-size="12" font-weight="400" >THE PRICING ENGINE</text><text x="346" y="233" fill="#f5f3ea" font-family="Arial, Helvetica, sans-serif" font-size="23" font-weight="700" >AI talks.</text><text x="346" y="261" fill="#d5ff70" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" >Code sets the limits.</text>
+<text x="48" y="299" fill="#baa4ff" font-family="monospace" font-size="11" font-weight="400" >HACK THE NORTH 2026 · CATEGORY WINNER</text></g>
+<text x="961" y="254" fill="#baa4ff" font-family="monospace" font-size="12" font-weight="400" >EXPLORE THE BUILD ↗</text>
+</svg>

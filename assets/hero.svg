@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="590" viewBox="0 0 1200 590" role="img" aria-labelledby="title desc">
+<title id="title">Ritvik Goyal — a little curiosity, a lot of possibility.</title><desc id="desc">Violet orbital rings surround a chrome star. Software, hackathons, and side quests. Based in Toronto.</desc>
+<defs>
+<radialGradient id="halo"><stop stop-color="#8063dc" stop-opacity=".27"/><stop offset="1" stop-color="#111216" stop-opacity="0"/></radialGradient>
+<linearGradient id="chrome" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#e8e2ff"/><stop offset=".2" stop-color="#857b9b"/><stop offset=".36" stop-color="#fff"/><stop offset=".5" stop-color="#554c68"/><stop offset=".68" stop-color="#e3dcf6"/><stop offset=".85" stop-color="#80748f"/><stop offset="1" stop-color="#f3f0ff"/></linearGradient>
+<linearGradient id="orbit" x1="0" y1="1" x2="1" y2="0"><stop stop-color="#68509b"/><stop offset=".45" stop-color="#e0cdff"/><stop offset="1" stop-color="#8461ce"/></linearGradient>
+<radialGradient id="planet" cx=".3" cy=".2"><stop stop-color="#e8dcff"/><stop offset=".45" stop-color="#bea5ff"/><stop offset="1" stop-color="#55416e"/></radialGradient>
+<pattern id="grid" width="48" height="48" patternUnits="userSpaceOnUse"><path d="M48 0H0V48" fill="none" stroke="#fff" stroke-opacity=".035"/></pattern>
+<clipPath id="frame"><rect width="1200" height="590" rx="20"/></clipPath>
+</defs>
+<style>
+.float{animation:float 8s ease-in-out infinite;transform-origin:900px 280px}
+.satellite{animation:orbit 28s linear infinite;transform-origin:900px 280px}
+@keyframes float{0%,100%{transform:translateY(0) rotate(-4deg)}50%{transform:translateY(-12px) rotate(4deg)}}
+@keyframes orbit{to{transform:rotate(360deg)}}
+@media(prefers-reduced-motion:reduce){.float,.satellite{animation:none}}
+</style><g clip-path="url(#frame)">
+<path fill="#111216" d="M0 0h1200v590H0z"/><path fill="url(#grid)" d="M0 0h1200v590H0z"/>
+<ellipse cx="925" cy="270" rx="380" ry="320" fill="url(#halo)"/>
+<path d="M38 76H1162" stroke="#393740"/>
+<text x="40" y="46" fill="#f5f3ea" font-family="monospace" font-size="15" font-weight="400" >RG / FIELD NOTES</text><text x="824" y="46" fill="#b1b0bd" font-family="monospace" font-size="14" font-weight="400" >TORONTO, CA  /  43.65 N</text>
+<text x="42" y="216" fill="#f5f3ea" font-family="Arial, Helvetica, sans-serif" font-size="155" font-weight="900" letter-spacing="-9">RITVIK</text>
+<text x="42" y="363" fill="#baa4ff" font-family="Arial, Helvetica, sans-serif" font-size="155" font-weight="900" letter-spacing="-9">GOYAL</text><polygon points="669.00,319.00 642.31,322.86 658.46,344.46 636.86,328.31 633.00,355.00 629.14,328.31 607.54,344.46 623.69,322.86 597.00,319.00 623.69,315.14 607.54,293.54 629.14,309.69 633.00,283.00 636.86,309.69 658.46,293.54 642.31,315.14" fill="#d5ff70"/>
+<text x="48" y="424" fill="#f5f3ea" font-family="Arial, Helvetica, sans-serif" font-size="30" font-weight="400" >A little curiosity.</text><text x="48" y="464" fill="#f5f3ea" font-family="Arial, Helvetica, sans-serif" font-size="30" font-weight="400" >A lot of possibility.</text>
+<g class="float">
+<ellipse cx="900" cy="280" rx="188" ry="186" fill="none" stroke="url(#orbit)" stroke-width="33" transform="rotate(-30 900 280)"/>
+<ellipse cx="900" cy="280" rx="145" ry="142" fill="none" stroke="#d5ff70" stroke-opacity=".65"/>
+<ellipse cx="900" cy="280" rx="238" ry="68" fill="none" stroke="#a49cae" stroke-width="1.5" transform="rotate(-38 900 280)"/>
+<ellipse cx="900" cy="280" rx="238" ry="68" fill="none" stroke="#655b79" transform="rotate(54 900 280)"/>
+<path d="M900 157 Q917 245 1023 280 Q918 299 900 403 Q881 301 777 280 Q880 260 900 157Z" fill="url(#chrome)" stroke="#f4edff" stroke-opacity=".35"/>
+<path d="M900 157L900 403M777 280H1023" stroke="#fff" stroke-opacity=".26"/>
+<circle cx="1070" cy="145" r="29" fill="url(#planet)"/><circle cx="718" cy="373" r="13" fill="url(#chrome)"/>
+</g><g class="satellite"><circle cx="900" cy="58" r="8" fill="#d5ff70"/></g>
+<text x="797" y="500" fill="#baa4ff" font-family="monospace" font-size="14" font-weight="400" >FOLLOW THE CURIOSITY ↗</text>
+<path d="M0 539H1200V590H0z" fill="#d5ff70"/>
+<text x="40" y="571" fill="#111216" font-family="monospace" font-size="17" font-weight="400" >SOFTWARE. HACKATHONS. SIDE QUESTS.</text>
+<text x="850" y="571" fill="#111216" font-family="monospace" font-size="13" font-weight="400" >ALWAYS A WORK IN PROGRESS</text></g>
+</svg>
