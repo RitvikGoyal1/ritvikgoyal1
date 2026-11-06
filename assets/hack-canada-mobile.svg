@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="360" height="230" viewBox="0 0 360 230" role="img" aria-labelledby="title desc">
+<title id="title">Hack Canada — ORGANIZER</title><desc id="desc">Hack Canada. ORGANIZER. 36 hours. Hundreds of builders.</desc>
+<defs></defs>
+<rect x=".5" y=".5" width="359" height="229" rx="16" fill="#111216" stroke="#45404e"/>
+<path d="M1 17Q1 1 17 1H343Q359 1 359 17V48H1Z" fill="#1d281c"/>
+<text x="22" y="31" fill="#d5ff70" font-family="monospace" font-size="16" font-weight="400" >COMMUNITY</text>
+<text x="22" y="107" fill="#f5f3ea" font-family="Arial, Helvetica, sans-serif" font-size="44" font-weight="700" letter-spacing="-2">Hack Canada</text>
+<g transform="translate(309 39) scale(0.34)" color="#d5ff70"><path d="M0 -55L11 -29L23 -37L20 -7L42 -20L38 -3L56 2L29 27L32 37L5 33L5 59H-5V33L-32 37L-29 27L-56 2L-38 -3L-42 -20L-20 -7L-23 -37L-11 -29Z" fill="currentColor"/></g><text x="22" y="151" fill="#d5ff70" font-family="monospace" font-size="22" font-weight="400" >ORGANIZER</text><text x="22" y="199" fill="#b1b0bd" font-family="Arial, Helvetica, sans-serif" font-size="23" font-weight="400" >2026 · Waterloo</text>
+</svg>

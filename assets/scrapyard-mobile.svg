@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="360" height="230" viewBox="0 0 360 230" role="img" aria-labelledby="title desc">
+<title id="title">Scrapyard — TORONTO / CO-ORGANIZER</title><desc id="desc">Scrapyard. TORONTO / CO-ORGANIZER. Scrappy ideas, built together.</desc>
+<defs></defs>
+<rect x=".5" y=".5" width="359" height="229" rx="16" fill="#111216" stroke="#45404e"/>
+<path d="M1 17Q1 1 17 1H343Q359 1 359 17V48H1Z" fill="#2c221e"/>
+<text x="22" y="31" fill="#ffbb8f" font-family="monospace" font-size="16" font-weight="400" >HACK CLUB</text>
+<text x="22" y="107" fill="#f5f3ea" font-family="Arial, Helvetica, sans-serif" font-size="44" font-weight="700" letter-spacing="-2">Scrapyard</text>
+<g transform="translate(309 39) scale(0.34)" color="#ffbb8f"><g transform="rotate(-12)"><rect x="-44" y="-39" width="88" height="88" rx="8" fill="currentColor"/>
+<path d="M-54 -13H54M-54 23H54" stroke="#111216" stroke-width="9"/>
+<path d="M-21 -49V59M21 -49V59" stroke="#111216" stroke-width="9"/></g>
+<polygon points="68.00,-40.00 52.43,-37.75 61.85,-25.15 49.25,-34.57 47.00,-19.00 44.75,-34.57 32.15,-25.15 41.57,-37.75 26.00,-40.00 41.57,-42.25 32.15,-54.85 44.75,-45.43 47.00,-61.00 49.25,-45.43 61.85,-54.85 52.43,-42.25" fill="#f5f3ea"/></g><text x="22" y="151" fill="#ffbb8f" font-family="monospace" font-size="22" font-weight="400" >ORGANIZER</text><text x="22" y="199" fill="#b1b0bd" font-family="Arial, Helvetica, sans-serif" font-size="23" font-weight="400" >Toronto</text>
+</svg>

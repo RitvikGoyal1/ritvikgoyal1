@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="360" height="230" viewBox="0 0 360 230" role="img" aria-labelledby="title desc">
+<title id="title">CUTC — OPERATIONS</title><desc id="desc">CUTC. OPERATIONS. Student-run tech conference</desc>
+<defs></defs>
+<rect x=".5" y=".5" width="359" height="229" rx="16" fill="#111216" stroke="#45404e"/>
+<path d="M1 17Q1 1 17 1H343Q359 1 359 17V48H1Z" fill="#211d30"/>
+<text x="22" y="31" fill="#baa4ff" font-family="monospace" font-size="16" font-weight="400" >COMMUNITY</text>
+<text x="22" y="107" fill="#f5f3ea" font-family="Arial, Helvetica, sans-serif" font-size="62" font-weight="700" letter-spacing="-2">CUTC</text>
+<g transform="translate(309 39) scale(0.34)" color="#baa4ff"><path d="M-24 -48L0 -14L24 -48" stroke="currentColor" stroke-width="7" fill="none"/>
+<rect x="-36" y="-17" width="72" height="83" rx="9" fill="currentColor"/>
+<rect x="-14" y="-7" width="28" height="5" rx="2" fill="#111216"/>
+<circle cy="24" r="13" fill="#111216"/><path d="M-21 49H21" stroke="#111216" stroke-width="6"/></g><text x="22" y="151" fill="#baa4ff" font-family="monospace" font-size="22" font-weight="400" >OPERATIONS</text><text x="22" y="199" fill="#b1b0bd" font-family="Arial, Helvetica, sans-serif" font-size="23" font-weight="400" >Toronto</text>
+</svg>

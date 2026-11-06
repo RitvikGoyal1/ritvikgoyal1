@@ -1,10 +1,10 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="600" height="340" viewBox="0 0 600 340" role="img" aria-labelledby="title desc">
-<title id="title">WealthSnaps</title><desc id="desc">02 / MOBILE + MONEY. Small receipts. A bigger picture.</desc>
+<title id="title">WealthSnaps</title><desc id="desc">02 / MOBILE + MONEY. Receipts, spending &amp; net worth.</desc>
 <defs></defs>
 <rect width="600" height="340" rx="14" fill="#111216"/>
 <rect x=".5" y=".5" width="599" height="339" rx="14" stroke="#35333e" fill="none"/>
 <text x="28" y="34" fill="#d5ff70" font-family="monospace" font-size="12" font-weight="400" >02 / MOBILE + MONEY</text><text x="543" y="34" fill="#b1b0bd" font-family="monospace" font-size="18" font-weight="400" >↗</text>
-<text x="26" y="94" fill="#f5f3ea" font-family="Arial, Helvetica, sans-serif" font-size="49" font-weight="700" letter-spacing="-2">WealthSnaps</text><text x="28" y="125" fill="#b1b0bd" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="400" >Small receipts. A bigger picture.</text><rect x="28" y="158" width="544" height="154" rx="10" fill="#1c2621"/>
+<text x="26" y="94" fill="#f5f3ea" font-family="Arial, Helvetica, sans-serif" font-size="49" font-weight="700" letter-spacing="-2">WealthSnaps</text><text x="28" y="125" fill="#b1b0bd" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="400" >Receipts, spending &amp; net worth.</text><rect x="28" y="158" width="544" height="154" rx="10" fill="#1c2621"/>
 <g transform="translate(52 176) rotate(-6 60 60)"><path d="M0 0H126V120L115 113L104 120L93 113L82 120L71 113L60 120L49 113L38 120L27 113L16 120L0 113Z" fill="#e9f0dc"/>
 <text x="16" y="25" fill="#111216" font-family="monospace" font-size="13" font-weight="400" >RECEIPT</text><path d="M16 40H109M16 56H80M16 72H96" stroke="#b5bfad"/><text x="16" y="101" fill="#111216" font-family="Arial, Helvetica, sans-serif" font-size="23" font-weight="700" >$42.80</text></g>
 <path d="M205 236H249M241 229L249 236L241 243" stroke="#d5ff70" fill="none"/>
