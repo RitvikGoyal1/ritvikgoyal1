@@ -17,43 +17,18 @@
 ### Building the community, too.
 
 <p align="center">
-  <a href="https://cutc.ca/">
-    <picture>
-      <source media="(max-width: 600px)" srcset="assets/cutc-mobile.svg" />
-      <img src="assets/cutc.svg" width="49%" alt="CUTC — operations team for the Canadian Undergraduate Technology Conference." />
-    </picture>
-  </a>
-  <a href="https://hackcanada.org/">
-    <picture>
-      <source media="(max-width: 600px)" srcset="assets/hack-canada-mobile.svg" />
-      <img src="assets/hack-canada.svg" width="49%" alt="Hack Canada — helped organize the 2026 hackathon at Waterloo’s SPUR Innovation Centre. 36 hours and hundreds of student builders." />
-    </picture>
-  </a>
+  <a href="https://cutc.ca/"><picture><source media="(max-width: 600px)" srcset="assets/cutc-mobile.svg" /><img src="assets/cutc.svg" width="49%" alt="CUTC — operations team for the Canadian Undergraduate Technology Conference." /></picture></a>
+  <a href="https://hackcanada.org/"><picture><source media="(max-width: 600px)" srcset="assets/hack-canada-mobile.svg" /><img src="assets/hack-canada.svg" width="49%" alt="Hack Canada — helped organize the 2026 hackathon at Waterloo’s SPUR Innovation Centre. 36 hours and hundreds of student builders." /></picture></a>
 </p>
 
 <p align="center">
-  <a href="https://scrapyard.hackclub.com/toronto">
-    <picture>
-      <source media="(max-width: 600px)" srcset="assets/scrapyard-mobile.svg" />
-      <img src="assets/scrapyard.svg" width="49%" alt="Scrapyard Toronto — helped lead Hack Club’s hackathon for scrappy, creative projects." />
-    </picture>
-  </a>
-  <a href="https://daydream.hackclub.com/toronto">
-    <picture>
-      <source media="(max-width: 600px)" srcset="assets/daydream-mobile.svg" />
-      <img src="assets/daydream.svg" width="49%" alt="Daydream Toronto — helped organize Hack Club’s game jam for high school students." />
-    </picture>
-  </a>
+  <a href="https://scrapyard.hackclub.com/toronto"><picture><source media="(max-width: 600px)" srcset="assets/scrapyard-mobile.svg" /><img src="assets/scrapyard.svg" width="49%" alt="Scrapyard Toronto — helped lead Hack Club’s hackathon for scrappy, creative projects." /></picture></a>
+  <a href="https://daydream.hackclub.com/toronto"><picture><source media="(max-width: 600px)" srcset="assets/daydream-mobile.svg" /><img src="assets/daydream.svg" width="49%" alt="Daydream Toronto — helped organize Hack Club’s game jam for high school students." /></picture></a>
 </p>
 
 ### Selected builds.
 
-<a href="https://app.ritvikgoyal.com/projects/dealify">
-  <picture>
-    <source media="(max-width: 600px)" srcset="assets/dealify.svg" />
-    <img src="assets/dealify-wide.svg" width="100%" alt="Dealify — an AI shopkeeper backed by a pricing engine. Hack the North 2026 category winner." />
-  </picture>
-</a>
+<a href="https://app.ritvikgoyal.com/projects/dealify"><picture><source media="(max-width: 600px)" srcset="assets/dealify.svg" /><img src="assets/dealify-wide.svg" width="100%" alt="Dealify — an AI shopkeeper backed by a pricing engine. Hack the North 2026 category winner." /></picture></a>
 
 <b>Winner, Shopify: Hack Shopping with AI</b> · Hack the North 2026. Built with Bryan Maristanez and Ricardo Gao.
 
@@ -61,12 +36,7 @@
 
 <br />
 
-<a href="https://wealthsnaps.com">
-  <picture>
-    <source media="(max-width: 600px)" srcset="assets/wealthsnaps.svg" />
-    <img src="assets/wealthsnaps-wide.svg" width="100%" alt="WealthSnaps — receipts, spending, and net worth in one mobile app. In development." />
-  </picture>
-</a>
+<a href="https://wealthsnaps.com"><picture><source media="(max-width: 600px)" srcset="assets/wealthsnaps.svg" /><img src="assets/wealthsnaps-wide.svg" width="100%" alt="WealthSnaps — receipts, spending, and net worth in one mobile app. In development." /></picture></a>
 
 <b>In development</b> · React Native / Expo / Gemini / Supabase
 
@@ -74,23 +44,13 @@
 
 <br />
 
-<a href="https://dazzling-licorice-53acc6.netlify.app">
-  <picture>
-    <source media="(max-width: 600px)" srcset="assets/studyflow.svg" />
-    <img src="assets/studyflow-wide.svg" width="100%" alt="StudyFlow — Pomodoro sessions, goals, calendars, and learning analytics in one workspace." />
-  </picture>
-</a>
+<a href="https://dazzling-licorice-53acc6.netlify.app"><picture><source media="(max-width: 600px)" srcset="assets/studyflow.svg" /><img src="assets/studyflow-wide.svg" width="100%" alt="StudyFlow — Pomodoro sessions, goals, calendars, and learning analytics in one workspace." /></picture></a>
 
 <a href="https://dazzling-licorice-53acc6.netlify.app">Try it ↗</a> · <a href="https://app.ritvikgoyal.com/projects/studyflow">Build notes ↗</a>
 
 <br />
 
-<a href="https://panther-press.pages.dev">
-  <picture>
-    <source media="(max-width: 600px)" srcset="assets/panther-press.svg" />
-    <img src="assets/panther-press-wide.svg" width="100%" alt="Panther Press — a student newsroom built with Astro, React, MDX, and Keystatic." />
-  </picture>
-</a>
+<a href="https://panther-press.pages.dev"><picture><source media="(max-width: 600px)" srcset="assets/panther-press.svg" /><img src="assets/panther-press-wide.svg" width="100%" alt="Panther Press — a student newsroom built with Astro, React, MDX, and Keystatic." /></picture></a>
 
 <a href="https://panther-press.pages.dev">Read it ↗</a> · <a href="https://github.com/vpci-panther-press/panther-press">Source ↗</a>
 
